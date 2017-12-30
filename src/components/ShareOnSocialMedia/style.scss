@@ -1,0 +1,16 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.social-shares {
+  & tr {
+    text-align:center;
+  }
+
+  & .facebook-share {
+    cursor: pointer;
+  }
+
+  & .twitter-share {
+    cursor: pointer;
+  }
+}
